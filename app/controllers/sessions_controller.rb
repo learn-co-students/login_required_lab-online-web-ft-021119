@@ -3,6 +3,10 @@ class SessionsController < ApplicationController
 
     end
 
+    def show
+
+    end
+
     def create
         # binding.pry
         if (params[:name].nil?) || (params[:name].empty?)
